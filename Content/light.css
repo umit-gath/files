@@ -1,0 +1,24 @@
+﻿.thumbnail {
+
+    border-color: black;
+}
+
+#dark {
+    background: white;
+    color:black;
+}
+
+hr {
+
+    border-top: 1px solid #000;
+}
+
+
+.neonText {
+    text-shadow: 0 0 4px black, 0 0 11px black, 0 0 19px black, 0 0 40px black, 0 0 60px #808080, 0 0 70px #808080, 0 0 80px #808080, 0 0 90px #808080;
+    color: black;
+}
+
+.programs {
+    color: black;
+}

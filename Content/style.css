@@ -1,0 +1,240 @@
+﻿@font-face{
+
+    font-family:myFont;
+    src:url('font/GE_SS_Two_Bold.otf')
+
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url('font/DroidKufi-Regular.ttf')
+}
+
+body {
+    padding-top: 100px;
+}
+
+.navbar-default {
+    background-color: #00466b;
+    border-color: #e7e7e7;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+        font-family:myFont;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover {
+            color: #daa12e;
+            font-family: myFont;
+        }
+
+        .nav > li {
+position:relative;
+display:contents;
+height:90px;
+padding-top:50px;
+        }
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-family: myFont;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+@media (min-width:768px) {
+
+    .nav > li {
+        position: relative;
+        display: block;
+        height: 90px;
+        padding-top: 20px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+        font-family: myFont;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+}
+
+
+
+    .myfooter {
+        background-color: #00466b;
+        padding: 10px;
+        font-family: myFont2;
+        text-align: justify;
+    }
+
+    .subfooter {
+        color: #daa12e;
+        text-align: center;
+        padding: 3px;
+        font-family: myFont2;
+    }
+
+    h3, .h3 {
+        font-size: 24px;
+        color: white;
+    }
+
+    ::marker {
+        unicode-bidi: isolate;
+        font-variant-numeric: tabular-nums;
+        text-transform: none;
+        text-indent: 0px !important;
+        text-align: start !important;
+        text-align-last: start !important;
+        color: #00466b;
+    }
+
+    p {
+        margin: 0 0 6px;
+        color: royalblue;
+    }
+
+
+    .myfooter h3, ul, p {
+        margin-bottom: 20px;
+        font-family: myFont2;
+        list-style-type: none;
+    }
+
+    .myfooter h3 {
+        margin-right: 10px;
+    }
+
+    .logo-size {
+        max-width: 80px;
+        max-height: 80px;
+        margin-top: -10px;
+    }
+
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        height: 90px;
+    }
+
+
+
+
+    .navbar-user {
+        padding: 10px;
+        padding-bottom: 0px;
+        width: 350px;
+    }
+
+
+    @media (max-width: 767px) {
+        .navbar-nav .open .dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: white;
+            border: 0;
+            box-shadow: none;
+        }
+        .thumbnail > img, .thumbnail a > img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .thumbnail2 > img, .thumbnail2 a > img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+.thumbnail2 > img, .thumbnail2 a > img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .h5 {
+        color: cornflowerblue;
+        font-family: myFont2;
+        font-size: 20px;
+    }
+
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        font-size: 15px;
+    }
+
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+
+
+    .i-am-centered {
+        margin: auto;
+        max-width: 300px;
+    }
+
+    #btnScrollToTop {
+        position: fixed;
+        right: 40px;
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 18px;
+        background: #00466b;
+        box-shadow: 0 0 10px rgba(0,0,0,0.25);
+        color: #ffffff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+        #btnScrollToTop:active {
+            background: #00499b;
+        }
+
+#dark {
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: #00466b;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+    #dark:active {
+        background: #00499b;
+    }
+
+
+hr.rounded {
+    border-top: 8px solid #00466b;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+
+.teachers{
+
+    font-family:myFont;
+    font-size:20px;
+}

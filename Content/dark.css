@@ -1,0 +1,65 @@
+﻿body {
+    background-color: #2b2b2b;
+    color: white;
+}
+.alert-info {
+    background-color: #474b4d;
+}
+
+.alert-warning {
+    background-color: #000000;
+    border-color: #ffab00;
+}
+
+.panel-body {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.thumbnail {
+    background-color: #2b2b2b;
+    border-color: white;
+}
+
+.navbar-nav .open .dropdown-menu {
+    background-color: #2b2b2b;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+#dark {
+
+    background: black;
+
+}
+
+input, button, select, textarea {
+    color:black;
+}
+
+a {
+    color: white;
+
+}
+
+.glyphicon-user:before {
+    color: white;
+}
+
+b, strong {
+    color: white;
+}
+
+
+.neonText {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 50px #0fa, 0 0 60px #0fa, 0 0 70px #0fa, 0 0 90px #0fa;
+    color: #fff;
+}
+
+
+.programs {
+    color: white;
+}
